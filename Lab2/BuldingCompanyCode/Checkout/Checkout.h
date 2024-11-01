@@ -24,4 +24,6 @@ public:
     void Casher();
     void ShowCheckout() const;
     void ShowingEquipment() const;
+    std::vector<Budget> getMoney();
+    std::vector<Equipment> getEquip();
 };

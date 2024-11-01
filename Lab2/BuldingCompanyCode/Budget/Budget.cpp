@@ -9,3 +9,4 @@ void Budget::ShowInfo() const {
     std::cout << " На расходы  " << source << " отдела было потрачено " << cash << " рублей" << std::endl;
 
 }
+

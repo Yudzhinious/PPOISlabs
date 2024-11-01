@@ -14,6 +14,9 @@ public:
     Equipment(std::string source, int cash);
     void AddTransportRental(const TransportRental& rental);
     void AddThings(const Things& thing);
+    void IsEnough();
     void ShowEquipmentForRental() const;
     void ShowEquipmentForThings() const;
+    std::vector<TransportRental> getRentals();
+    std::vector<Things> getThings();
 };

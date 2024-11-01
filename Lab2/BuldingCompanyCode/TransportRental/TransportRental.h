@@ -10,4 +10,5 @@ protected:
 public:
     TransportRental(int experience, int time, std::string name, std::string naming, int amount);
     virtual void ShowHelp_1() const override;
+    void Experience() const;
 };
